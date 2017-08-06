@@ -1,0 +1,18 @@
+set zlens = 0.63
+set zsrc = 1.39
+set potflag = 1
+
+set omitcore = 1.0e-6
+data gravlens_data.txt
+set chimode = 0
+set checkparity = 0
+set gridflag = 0
+
+startup 2 1
+alpha 0.63 -1.25207554 0.8784 0.3          83 0.0 0.0 0.0 0.0 1.000000e+00
+alpha 0.63 -0.44716984 0.9756 2.892019e-01 80 0.0 0.0 0.0 0.0 1.000000e+00
+
+1 1 1 1 1 1 1 0 0 0
+1 1 1 1 1 0 0 0 0 0
+
+optimize 
